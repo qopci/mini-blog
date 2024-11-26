@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog</title>
+    <link rel ="stylesheet" href ="css/home.css">
+</head>
+<body>
+    <div id ="confirmation-container">
+        <h1>Thank you for your post, <%= data.author %>!</h1>
+        <p><b>Title:</b> <%= data.title %></p>
+        <p><b>Content:</b> <%= data.content %></p>
+        <a href="/entries">View All Entries</a>
+    </div>
+</body>
+</html>
